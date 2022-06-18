@@ -187,7 +187,7 @@ function Problem100(id){
                           [1,1,1,1,1,1,1,1,0,1]];
     this.ingredients = [I];
     this.caption = 'Tetris Part 6';
-    this.hint = '右端に寄せた後　右回転\nという方法があります';
+    this.hint = 'Here you can move it to the right wall and then rotate clockwise.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -215,8 +215,8 @@ function Problem100(id){
                           [1,1,1,1,1,1,1,0,1,1],
                           [1,1,1,1,1,1,1,0,1,1]];
     this.ingredients = [I];
-    this.caption = 'テトリス　その７';
-    this.hint = 'こちらは　右端に寄せて\n左回転という手が　使えます。';
+    this.caption = 'Tetris Part 7';
+    this.hint = 'Here on the other hand you can move it to the right wall then rotate counterclockwise.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -244,8 +244,8 @@ function Problem100(id){
                           [1,0,1,1,1,1,1,1,1,1],
                           [1,0,1,1,1,1,1,1,1,1]];
     this.ingredients = [I];
-    this.caption = 'テトリス　その８';
-    this.hint = '左端に寄せてから　左回転すると\nちょうどいい感じです。';
+    this.caption = 'Tetris Part 8';
+    this.hint = 'After moving to the left wall rotate counterclockwise to fit it in.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -273,8 +273,8 @@ function Problem100(id){
                           [1,1,0,1,1,1,1,1,1,1],
                           [1,1,0,1,1,1,1,1,1,1]];
     this.ingredients = [I];
-    this.caption = 'テトリス　その９';
-    this.hint = 'ちなみに　この長い棒には\n「Ｉミノ（アイミノ）」という\n名前が　あります。\n覚えてやってください。';
+    this.caption = 'Tetris Part 9';
+    this.hint = 'By the way this long bar is called the I mino or I piece.';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [0,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -302,8 +302,8 @@ function Problem100(id){
                           [0,1,1,1,1,1,1,1,1,0],
                           [0,1,1,1,1,1,1,1,1,1]];
     this.ingredients = [I, I, I, I, I, I, I, I, I, I];
-    this.caption = '締めのテトリス';
-    this.hint = 'さあ　たくさんの「Ｉミノ」を使って\n最後にパーッと一発\nTETRiS を決めましょう！';
+    this.caption = 'Tetris Conclusion';
+    this.hint = 'Alright, use the many I pieces and end it off in a perfect clear!';
     this.isStrictGuide = false;
     this.guides = [];
     this.req = [9,0,0,1,0,0,0,0,0,0,0,0,0];
@@ -331,8 +331,8 @@ function Problem100(id){
                           [1,1,1,1,1,1,0,0,1,1],
                           [1,1,1,1,1,1,0,1,1,1]];
     this.ingredients = [T, T, T];
-    this.caption = 'Ｔミノの回転方向　その１';
-    this.hint = '右回転で　ぴったり入ります。\n回転を間違えても　クリアに\nなりますが、できるだけ\n効率良く　回転を！';
+    this.caption = 'T Piece Rotation　Part 1';
+    this.hint = 'Rotate clockwise to fit it in perfectly. \nYou can still clear it if you mess up the rotation but its important to rotate efficiently!';
     this.isStrictGuide = false;
     this.guides =[];
     this.req = [0,3,0,0,0,0,0,0,0,0,0,0,0];
